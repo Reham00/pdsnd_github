@@ -21,6 +21,7 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    # Enter your code here
     while True:
         city = input("please enter the city name: ")
         city = city.lower()
